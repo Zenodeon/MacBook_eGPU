@@ -1,0 +1,10 @@
+arm 2026-10-04T03:09:08.6411089+04:00
+2026-10-04T03:09:08.7728765+04:00 file Z:\EFI\OC\OpenCore.efi 626688
+2026-10-04T03:09:08.7838469+04:00 file Z:\EFI\OC\config.plist 58276
+2026-10-04T03:09:08.7948174+04:00 file Z:\EFI\OC\Drivers\OpenRuntime.efi 24576
+2026-10-04T03:09:08.8037935+04:00 file Z:\EFI\OC\ACPI\DSDT.aml 34352
+2026-10-04T03:09:09.5435534+04:00 The operation completed successfully.
+2026-10-04T03:09:10.2302797+04:00 The operation completed successfully.
+2026-10-04T03:09:10.9230741+04:00 The operation completed successfully.
+2026-10-04T03:09:10.9320502+04:00 stage need-dsdt, rebooting once
+2026-10-04T03:09:10.9709462+04:00 shutdown issued

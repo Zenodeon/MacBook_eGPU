@@ -1,0 +1,189 @@
+esp-now 2026-10-04T03:29:00.0084732+04:00
+efi=True
+03:21:12 384 \EFI\RESTORE-WINDOWS-BOOT.txt
+03:21:36 32768 \EFI\Microsoft\Boot\BCD
+01:41:24 162688 \EFI\Microsoft\Boot\SecureBootRecovery.efi
+13:08:48 9796 \EFI\Microsoft\Boot\winsipolicy.p7b
+01:41:24 1604016 \EFI\Microsoft\Boot\bootmgfw.original.efi
+01:41:24 11030 \EFI\Microsoft\Boot\boot.stl
+22:07:36 24576 \EFI\Microsoft\Boot\bootmgfw.efi
+01:41:24 1587584 \EFI\Microsoft\Boot\bootmgr.efi
+06:50:04 18920 \EFI\Microsoft\Boot\kdnet_uart16550.dll
+06:49:08 28648 \EFI\Microsoft\Boot\kdstub.dll
+06:50:04 32744 \EFI\Microsoft\Boot\kd_02_10df.dll
+06:50:04 380376 \EFI\Microsoft\Boot\kd_02_10ec.dll
+06:50:04 27624 \EFI\Microsoft\Boot\kd_02_1137.dll
+06:50:04 241112 \EFI\Microsoft\Boot\kd_02_14e4.dll
+06:50:04 45552 \EFI\Microsoft\Boot\kd_02_15b3.dll
+06:50:04 45544 \EFI\Microsoft\Boot\kd_02_1969.dll
+06:50:04 32728 \EFI\Microsoft\Boot\kd_02_19a2.dll
+06:50:04 21480 \EFI\Microsoft\Boot\kd_02_1af4.dll
+06:50:04 299496 \EFI\Microsoft\Boot\kd_02_8086.dll
+06:50:04 19936 \EFI\Microsoft\Boot\kd_07_1415.dll
+06:50:04 50144 \EFI\Microsoft\Boot\kd_0C_8086.dll
+01:41:24 1381272 \EFI\Microsoft\Boot\memtest.efi
+01:41:48 82312 \EFI\Microsoft\Boot\bg-BG\bootmgfw.efi.mui
+01:41:48 82304 \EFI\Microsoft\Boot\bg-BG\bootmgr.efi.mui
+01:41:48 81264 \EFI\Microsoft\Boot\cs-CZ\bootmgfw.efi.mui
+01:41:48 81392 \EFI\Microsoft\Boot\cs-CZ\bootmgr.efi.mui
+13:09:04 45576 \EFI\Microsoft\Boot\cs-CZ\memtest.efi.mui
+01:41:48 80240 \EFI\Microsoft\Boot\da-DK\bootmgfw.efi.mui
+01:41:48 80352 \EFI\Microsoft\Boot\da-DK\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\da-DK\memtest.efi.mui
+01:41:48 84464 \EFI\Microsoft\Boot\de-DE\bootmgfw.efi.mui
+01:41:48 84464 \EFI\Microsoft\Boot\de-DE\bootmgr.efi.mui
+13:09:04 46120 \EFI\Microsoft\Boot\de-DE\memtest.efi.mui
+01:41:48 85368 \EFI\Microsoft\Boot\el-GR\bootmgfw.efi.mui
+01:41:48 85376 \EFI\Microsoft\Boot\el-GR\bootmgr.efi.mui
+13:09:04 46600 \EFI\Microsoft\Boot\el-GR\memtest.efi.mui
+01:41:48 78320 \EFI\Microsoft\Boot\en-GB\bootmgfw.efi.mui
+01:41:48 78304 \EFI\Microsoft\Boot\en-GB\bootmgr.efi.mui
+01:41:48 78320 \EFI\Microsoft\Boot\en-US\bootmgfw.efi.mui
+01:41:48 78192 \EFI\Microsoft\Boot\en-US\bootmgr.efi.mui
+13:09:04 45072 \EFI\Microsoft\Boot\en-US\memtest.efi.mui
+01:41:48 82400 \EFI\Microsoft\Boot\es-ES\bootmgfw.efi.mui
+01:41:48 82304 \EFI\Microsoft\Boot\es-ES\bootmgr.efi.mui
+13:09:04 45880 \EFI\Microsoft\Boot\es-ES\memtest.efi.mui
+01:41:48 82296 \EFI\Microsoft\Boot\es-MX\bootmgfw.efi.mui
+01:41:48 82304 \EFI\Microsoft\Boot\es-MX\bootmgr.efi.mui
+01:41:48 79232 \EFI\Microsoft\Boot\et-EE\bootmgfw.efi.mui
+01:41:48 79328 \EFI\Microsoft\Boot\et-EE\bootmgr.efi.mui
+01:41:48 81280 \EFI\Microsoft\Boot\fi-FI\bootmgfw.efi.mui
+01:41:48 81280 \EFI\Microsoft\Boot\fi-FI\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\fi-FI\memtest.efi.mui
+01:41:48 83840 \EFI\Microsoft\Boot\fr-CA\bootmgfw.efi.mui
+01:41:48 83952 \EFI\Microsoft\Boot\fr-CA\bootmgr.efi.mui
+01:41:48 84352 \EFI\Microsoft\Boot\fr-FR\bootmgfw.efi.mui
+01:41:48 84464 \EFI\Microsoft\Boot\fr-FR\bootmgr.efi.mui
+13:09:04 46096 \EFI\Microsoft\Boot\fr-FR\memtest.efi.mui
+01:41:48 81272 \EFI\Microsoft\Boot\hr-HR\bootmgfw.efi.mui
+01:41:48 81280 \EFI\Microsoft\Boot\hr-HR\bootmgr.efi.mui
+01:41:48 84464 \EFI\Microsoft\Boot\hu-HU\bootmgfw.efi.mui
+01:41:48 84448 \EFI\Microsoft\Boot\hu-HU\bootmgr.efi.mui
+13:09:04 46096 \EFI\Microsoft\Boot\hu-HU\memtest.efi.mui
+01:41:48 81800 \EFI\Microsoft\Boot\it-IT\bootmgfw.efi.mui
+01:41:48 81888 \EFI\Microsoft\Boot\it-IT\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\it-IT\memtest.efi.mui
+01:41:48 70512 \EFI\Microsoft\Boot\ja-JP\bootmgfw.efi.mui
+01:41:48 70536 \EFI\Microsoft\Boot\ja-JP\bootmgr.efi.mui
+13:09:04 43016 \EFI\Microsoft\Boot\ja-JP\memtest.efi.mui
+01:41:48 70008 \EFI\Microsoft\Boot\ko-KR\bootmgfw.efi.mui
+01:41:48 70000 \EFI\Microsoft\Boot\ko-KR\bootmgr.efi.mui
+13:09:04 43024 \EFI\Microsoft\Boot\ko-KR\memtest.efi.mui
+01:41:48 80256 \EFI\Microsoft\Boot\lt-LT\bootmgfw.efi.mui
+01:41:48 80368 \EFI\Microsoft\Boot\lt-LT\bootmgr.efi.mui
+01:41:48 80248 \EFI\Microsoft\Boot\lv-LV\bootmgfw.efi.mui
+01:41:48 80240 \EFI\Microsoft\Boot\lv-LV\bootmgr.efi.mui
+01:41:48 79752 \EFI\Microsoft\Boot\nb-NO\bootmgfw.efi.mui
+01:41:48 79752 \EFI\Microsoft\Boot\nb-NO\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\nb-NO\memtest.efi.mui
+01:41:48 82400 \EFI\Microsoft\Boot\nl-NL\bootmgfw.efi.mui
+01:41:48 82288 \EFI\Microsoft\Boot\nl-NL\bootmgr.efi.mui
+13:09:04 45368 \EFI\Microsoft\Boot\nl-NL\memtest.efi.mui
+01:41:48 82808 \EFI\Microsoft\Boot\pl-PL\bootmgfw.efi.mui
+01:41:48 82912 \EFI\Microsoft\Boot\pl-PL\bootmgr.efi.mui
+13:09:04 46096 \EFI\Microsoft\Boot\pl-PL\memtest.efi.mui
+01:41:48 81272 \EFI\Microsoft\Boot\pt-BR\bootmgfw.efi.mui
+01:41:48 81280 \EFI\Microsoft\Boot\pt-BR\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\pt-BR\memtest.efi.mui
+01:41:48 81288 \EFI\Microsoft\Boot\pt-PT\bootmgfw.efi.mui
+01:41:48 81376 \EFI\Microsoft\Boot\pt-PT\bootmgr.efi.mui
+13:09:04 46096 \EFI\Microsoft\Boot\pt-PT\memtest.efi.mui
+13:09:04 54072 \EFI\Microsoft\Boot\qps-ploc\memtest.efi.mui
+01:41:48 80864 \EFI\Microsoft\Boot\ro-RO\bootmgfw.efi.mui
+01:41:48 80880 \EFI\Microsoft\Boot\ro-RO\bootmgr.efi.mui
+01:41:48 81776 \EFI\Microsoft\Boot\ru-RU\bootmgfw.efi.mui
+01:41:48 81888 \EFI\Microsoft\Boot\ru-RU\bootmgr.efi.mui
+13:09:04 44856 \EFI\Microsoft\Boot\ru-RU\memtest.efi.mui
+01:41:48 81800 \EFI\Microsoft\Boot\sk-SK\bootmgfw.efi.mui
+01:41:48 81888 \EFI\Microsoft\Boot\sk-SK\bootmgr.efi.mui
+01:41:48 80768 \EFI\Microsoft\Boot\sl-SI\bootmgfw.efi.mui
+01:41:48 80768 \EFI\Microsoft\Boot\sl-SI\bootmgr.efi.mui
+01:41:48 81904 \EFI\Microsoft\Boot\sr-Latn-RS\bootmgfw.efi.mui
+01:41:48 81776 \EFI\Microsoft\Boot\sr-Latn-RS\bootmgr.efi.mui
+01:41:48 80760 \EFI\Microsoft\Boot\sv-SE\bootmgfw.efi.mui
+01:41:48 80880 \EFI\Microsoft\Boot\sv-SE\bootmgr.efi.mui
+13:09:04 45072 \EFI\Microsoft\Boot\sv-SE\memtest.efi.mui
+01:41:46 80240 \EFI\Microsoft\Boot\tr-TR\bootmgfw.efi.mui
+01:41:48 80352 \EFI\Microsoft\Boot\tr-TR\bootmgr.efi.mui
+13:09:04 45584 \EFI\Microsoft\Boot\tr-TR\memtest.efi.mui
+01:41:46 81784 \EFI\Microsoft\Boot\uk-UA\bootmgfw.efi.mui
+01:41:46 81888 \EFI\Microsoft\Boot\uk-UA\bootmgr.efi.mui
+01:41:46 66016 \EFI\Microsoft\Boot\zh-CN\bootmgfw.efi.mui
+01:41:46 65904 \EFI\Microsoft\Boot\zh-CN\bootmgr.efi.mui
+13:09:04 42512 \EFI\Microsoft\Boot\zh-CN\memtest.efi.mui
+01:41:46 65904 \EFI\Microsoft\Boot\zh-TW\bootmgfw.efi.mui
+01:41:46 66016 \EFI\Microsoft\Boot\zh-TW\bootmgr.efi.mui
+13:09:04 42512 \EFI\Microsoft\Boot\zh-TW\memtest.efi.mui
+01:09:38 3695830 \EFI\Microsoft\Boot\Fonts\chs_boot.ttf
+01:09:38 3878309 \EFI\Microsoft\Boot\Fonts\cht_boot.ttf
+01:09:38 1985767 \EFI\Microsoft\Boot\Fonts\jpn_boot.ttf
+01:09:38 2372900 \EFI\Microsoft\Boot\Fonts\kor_boot.ttf
+01:09:38 175429 \EFI\Microsoft\Boot\Fonts\malgunn_boot.ttf
+01:09:38 177888 \EFI\Microsoft\Boot\Fonts\malgun_boot.ttf
+01:09:38 144017 \EFI\Microsoft\Boot\Fonts\meiryon_boot.ttf
+01:09:38 145684 \EFI\Microsoft\Boot\Fonts\meiryo_boot.ttf
+01:09:38 163496 \EFI\Microsoft\Boot\Fonts\msjhn_boot.ttf
+01:09:38 165524 \EFI\Microsoft\Boot\Fonts\msjh_boot.ttf
+01:09:38 155438 \EFI\Microsoft\Boot\Fonts\msyhn_boot.ttf
+01:09:38 157064 \EFI\Microsoft\Boot\Fonts\msyh_boot.ttf
+01:08:50 44760 \EFI\Microsoft\Boot\Fonts\segmono_boot.ttf
+01:08:50 85764 \EFI\Microsoft\Boot\Fonts\segoen_slboot.ttf
+01:08:50 86077 \EFI\Microsoft\Boot\Fonts\segoe_slboot.ttf
+01:08:50 48992 \EFI\Microsoft\Boot\Fonts\wgl4_boot.ttf
+01:08:50 92472 \EFI\Microsoft\Boot\Resources\bootres.dll
+01:49:54 12816 \EFI\Microsoft\Boot\Resources\en-US\bootres.dll.mui
+11:12:14 20480 \EFI\Microsoft\Recovery\BCD
+01:41:24 1604016 \EFI\Boot\bootx64.efi
+01:41:24 1604016 \EFI\Boot\bootx64_original.efi
+02:34:58 246784 \EFI\Boot\bootx64_silent.efi
+09:32:58 30725398 \EFI\APPLE\EMBEDDEDOS\combined.memboot
+09:32:42 209892 \EFI\APPLE\EMBEDDEDOS\FDRData
+09:33:08 360 \EFI\APPLE\EMBEDDEDOS\version.plist
+23:10:26 14340 \EFI\APPLE\LOG\BOOT-1.LOG
+22:07:36 626688 \EFI\OC\OpenCore.efi
+03:20:00 58165 \EFI\OC\config.plist
+22:07:38 24576 \EFI\OC\Drivers\OpenRuntime.efi
+02:38:14 34352 \EFI\OC\ACPI\DSDT.aml
+---- firmware ----
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {8e72434b-babd-11f1-b8ff-806e6f6e6963}
+timeout                 2
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=Z:
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {current}
+resumeobject            {4c8e84a3-29fd-11ec-b08f-bf0eb956520c}
+displayorder            {current}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {1b5a4c6b-bf61-11f1-b910-806e6f6e6963}
+path                    \81381531-CD52-48FD-8A35-E098C505F379\System\Library\CoreServices\boot.efi
+description             Mac OS X
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {4c8e84a2-29fd-11ec-b08f-bf0eb956520c}
+device                  partition=Z:
+path                    EFI\OC\OpenCore.efi
+description             OpenCore
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {8e72434b-babd-11f1-b8ff-806e6f6e6963}
+device                  partition=Z:
+path                    \8C9DAF09-7121-48FF-B7DE-86774A4970A8\System\Library\CoreServices\boot.efi
+description             Boot Camp
+

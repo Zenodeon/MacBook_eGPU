@@ -1,0 +1,39 @@
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {8e72434b-babd-11f1-b8ff-806e6f6e6963}
+timeout                 2
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  partition=Z:
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {current}
+resumeobject            {4c8e84a3-29fd-11ec-b08f-bf0eb956520c}
+displayorder            {current}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {1b5a4c6b-bf61-11f1-b910-806e6f6e6963}
+path                    \81381531-CD52-48FD-8A35-E098C505F379\System\Library\CoreServices\boot.efi
+description             Mac OS X
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {4c8e84a2-29fd-11ec-b08f-bf0eb956520c}
+path                    EFI\OC\OpenCore.efi
+description             OpenCore
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {8e72434b-babd-11f1-b8ff-806e6f6e6963}
+device                  partition=Z:
+path                    \8C9DAF09-7121-48FF-B7DE-86774A4970A8\System\Library\CoreServices\boot.efi
+description             Boot Camp

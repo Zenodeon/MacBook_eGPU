@@ -1,0 +1,115 @@
+copy 2026-10-04T03:56:07.7407391+04:00
+efi=True
+root 22:07:36 626688 OpenCore.efi
+root 03:34:50 58159 config.plist
+root 03:21:12 384 RESTORE-WINDOWS-BOOT.txt
+hit 10-04 03:21:12 384 \EFI\RESTORE-WINDOWS-BOOT.txt
+hit 09-28 01:41:24 162688 \EFI\Microsoft\Boot\SecureBootRecovery.efi
+hit 09-28 01:41:24 1604016 \EFI\Microsoft\Boot\bootmgfw.original.efi
+hit 09-28 01:41:24 11030 \EFI\Microsoft\Boot\boot.stl
+hit 09-28 01:41:24 1604016 \EFI\Microsoft\Boot\bootmgfw.efi
+hit 09-28 01:41:24 1587584 \EFI\Microsoft\Boot\bootmgr.efi
+hit 09-28 01:41:48 82312 \EFI\Microsoft\Boot\bg-BG\bootmgfw.efi.mui
+hit 09-28 01:41:48 82304 \EFI\Microsoft\Boot\bg-BG\bootmgr.efi.mui
+hit 09-28 01:41:48 81264 \EFI\Microsoft\Boot\cs-CZ\bootmgfw.efi.mui
+hit 09-28 01:41:48 81392 \EFI\Microsoft\Boot\cs-CZ\bootmgr.efi.mui
+hit 09-28 01:41:48 80240 \EFI\Microsoft\Boot\da-DK\bootmgfw.efi.mui
+hit 09-28 01:41:48 80352 \EFI\Microsoft\Boot\da-DK\bootmgr.efi.mui
+hit 09-28 01:41:48 84464 \EFI\Microsoft\Boot\de-DE\bootmgfw.efi.mui
+hit 09-28 01:41:48 84464 \EFI\Microsoft\Boot\de-DE\bootmgr.efi.mui
+hit 09-28 01:41:48 85368 \EFI\Microsoft\Boot\el-GR\bootmgfw.efi.mui
+hit 09-28 01:41:48 85376 \EFI\Microsoft\Boot\el-GR\bootmgr.efi.mui
+hit 09-28 01:41:48 78320 \EFI\Microsoft\Boot\en-GB\bootmgfw.efi.mui
+hit 09-28 01:41:48 78304 \EFI\Microsoft\Boot\en-GB\bootmgr.efi.mui
+hit 09-28 01:41:48 78320 \EFI\Microsoft\Boot\en-US\bootmgfw.efi.mui
+hit 09-28 01:41:48 78192 \EFI\Microsoft\Boot\en-US\bootmgr.efi.mui
+hit 09-28 01:41:48 82400 \EFI\Microsoft\Boot\es-ES\bootmgfw.efi.mui
+hit 09-28 01:41:48 82304 \EFI\Microsoft\Boot\es-ES\bootmgr.efi.mui
+hit 09-28 01:41:48 82296 \EFI\Microsoft\Boot\es-MX\bootmgfw.efi.mui
+hit 09-28 01:41:48 82304 \EFI\Microsoft\Boot\es-MX\bootmgr.efi.mui
+hit 09-28 01:41:48 79232 \EFI\Microsoft\Boot\et-EE\bootmgfw.efi.mui
+hit 09-28 01:41:48 79328 \EFI\Microsoft\Boot\et-EE\bootmgr.efi.mui
+hit 09-28 01:41:48 81280 \EFI\Microsoft\Boot\fi-FI\bootmgfw.efi.mui
+hit 09-28 01:41:48 81280 \EFI\Microsoft\Boot\fi-FI\bootmgr.efi.mui
+hit 09-28 01:41:48 83840 \EFI\Microsoft\Boot\fr-CA\bootmgfw.efi.mui
+hit 09-28 01:41:48 83952 \EFI\Microsoft\Boot\fr-CA\bootmgr.efi.mui
+hit 09-28 01:41:48 84352 \EFI\Microsoft\Boot\fr-FR\bootmgfw.efi.mui
+hit 09-28 01:41:48 84464 \EFI\Microsoft\Boot\fr-FR\bootmgr.efi.mui
+hit 09-28 01:41:48 81272 \EFI\Microsoft\Boot\hr-HR\bootmgfw.efi.mui
+hit 09-28 01:41:48 81280 \EFI\Microsoft\Boot\hr-HR\bootmgr.efi.mui
+hit 09-28 01:41:48 84464 \EFI\Microsoft\Boot\hu-HU\bootmgfw.efi.mui
+hit 09-28 01:41:48 84448 \EFI\Microsoft\Boot\hu-HU\bootmgr.efi.mui
+hit 09-28 01:41:48 81800 \EFI\Microsoft\Boot\it-IT\bootmgfw.efi.mui
+hit 09-28 01:41:48 81888 \EFI\Microsoft\Boot\it-IT\bootmgr.efi.mui
+hit 09-28 01:41:48 70512 \EFI\Microsoft\Boot\ja-JP\bootmgfw.efi.mui
+hit 09-28 01:41:48 70536 \EFI\Microsoft\Boot\ja-JP\bootmgr.efi.mui
+hit 09-28 01:41:48 70008 \EFI\Microsoft\Boot\ko-KR\bootmgfw.efi.mui
+hit 09-28 01:41:48 70000 \EFI\Microsoft\Boot\ko-KR\bootmgr.efi.mui
+hit 09-28 01:41:48 80256 \EFI\Microsoft\Boot\lt-LT\bootmgfw.efi.mui
+hit 09-28 01:41:48 80368 \EFI\Microsoft\Boot\lt-LT\bootmgr.efi.mui
+hit 09-28 01:41:48 80248 \EFI\Microsoft\Boot\lv-LV\bootmgfw.efi.mui
+hit 09-28 01:41:48 80240 \EFI\Microsoft\Boot\lv-LV\bootmgr.efi.mui
+hit 09-28 01:41:48 79752 \EFI\Microsoft\Boot\nb-NO\bootmgfw.efi.mui
+hit 09-28 01:41:48 79752 \EFI\Microsoft\Boot\nb-NO\bootmgr.efi.mui
+hit 09-28 01:41:48 82400 \EFI\Microsoft\Boot\nl-NL\bootmgfw.efi.mui
+hit 09-28 01:41:48 82288 \EFI\Microsoft\Boot\nl-NL\bootmgr.efi.mui
+hit 09-28 01:41:48 82808 \EFI\Microsoft\Boot\pl-PL\bootmgfw.efi.mui
+hit 09-28 01:41:48 82912 \EFI\Microsoft\Boot\pl-PL\bootmgr.efi.mui
+hit 09-28 01:41:48 81272 \EFI\Microsoft\Boot\pt-BR\bootmgfw.efi.mui
+hit 09-28 01:41:48 81280 \EFI\Microsoft\Boot\pt-BR\bootmgr.efi.mui
+hit 09-28 01:41:48 81288 \EFI\Microsoft\Boot\pt-PT\bootmgfw.efi.mui
+hit 09-28 01:41:48 81376 \EFI\Microsoft\Boot\pt-PT\bootmgr.efi.mui
+hit 09-28 01:41:48 80864 \EFI\Microsoft\Boot\ro-RO\bootmgfw.efi.mui
+hit 09-28 01:41:48 80880 \EFI\Microsoft\Boot\ro-RO\bootmgr.efi.mui
+hit 09-28 01:41:48 81776 \EFI\Microsoft\Boot\ru-RU\bootmgfw.efi.mui
+hit 09-28 01:41:48 81888 \EFI\Microsoft\Boot\ru-RU\bootmgr.efi.mui
+hit 09-28 01:41:48 81800 \EFI\Microsoft\Boot\sk-SK\bootmgfw.efi.mui
+hit 09-28 01:41:48 81888 \EFI\Microsoft\Boot\sk-SK\bootmgr.efi.mui
+hit 09-28 01:41:48 80768 \EFI\Microsoft\Boot\sl-SI\bootmgfw.efi.mui
+hit 09-28 01:41:48 80768 \EFI\Microsoft\Boot\sl-SI\bootmgr.efi.mui
+hit 09-28 01:41:48 81904 \EFI\Microsoft\Boot\sr-Latn-RS\bootmgfw.efi.mui
+hit 09-28 01:41:48 81776 \EFI\Microsoft\Boot\sr-Latn-RS\bootmgr.efi.mui
+hit 09-28 01:41:48 80760 \EFI\Microsoft\Boot\sv-SE\bootmgfw.efi.mui
+hit 09-28 01:41:48 80880 \EFI\Microsoft\Boot\sv-SE\bootmgr.efi.mui
+hit 09-28 01:41:46 80240 \EFI\Microsoft\Boot\tr-TR\bootmgfw.efi.mui
+hit 09-28 01:41:48 80352 \EFI\Microsoft\Boot\tr-TR\bootmgr.efi.mui
+hit 09-28 01:41:46 81784 \EFI\Microsoft\Boot\uk-UA\bootmgfw.efi.mui
+hit 09-28 01:41:46 81888 \EFI\Microsoft\Boot\uk-UA\bootmgr.efi.mui
+hit 09-28 01:41:46 66016 \EFI\Microsoft\Boot\zh-CN\bootmgfw.efi.mui
+hit 09-28 01:41:46 65904 \EFI\Microsoft\Boot\zh-CN\bootmgr.efi.mui
+hit 09-28 01:41:46 65904 \EFI\Microsoft\Boot\zh-TW\bootmgfw.efi.mui
+hit 09-28 01:41:46 66016 \EFI\Microsoft\Boot\zh-TW\bootmgr.efi.mui
+hit 12-07 01:09:38 3695830 \EFI\Microsoft\Boot\Fonts\chs_boot.ttf
+hit 12-07 01:09:38 3878309 \EFI\Microsoft\Boot\Fonts\cht_boot.ttf
+hit 12-07 01:09:38 1985767 \EFI\Microsoft\Boot\Fonts\jpn_boot.ttf
+hit 12-07 01:09:38 2372900 \EFI\Microsoft\Boot\Fonts\kor_boot.ttf
+hit 12-07 01:09:38 175429 \EFI\Microsoft\Boot\Fonts\malgunn_boot.ttf
+hit 12-07 01:09:38 177888 \EFI\Microsoft\Boot\Fonts\malgun_boot.ttf
+hit 12-07 01:09:38 144017 \EFI\Microsoft\Boot\Fonts\meiryon_boot.ttf
+hit 12-07 01:09:38 145684 \EFI\Microsoft\Boot\Fonts\meiryo_boot.ttf
+hit 12-07 01:09:38 163496 \EFI\Microsoft\Boot\Fonts\msjhn_boot.ttf
+hit 12-07 01:09:38 165524 \EFI\Microsoft\Boot\Fonts\msjh_boot.ttf
+hit 12-07 01:09:38 155438 \EFI\Microsoft\Boot\Fonts\msyhn_boot.ttf
+hit 12-07 01:09:38 157064 \EFI\Microsoft\Boot\Fonts\msyh_boot.ttf
+hit 12-07 01:08:50 44760 \EFI\Microsoft\Boot\Fonts\segmono_boot.ttf
+hit 12-07 01:08:50 85764 \EFI\Microsoft\Boot\Fonts\segoen_slboot.ttf
+hit 12-07 01:08:50 86077 \EFI\Microsoft\Boot\Fonts\segoe_slboot.ttf
+hit 12-07 01:08:50 48992 \EFI\Microsoft\Boot\Fonts\wgl4_boot.ttf
+hit 12-07 01:08:50 92472 \EFI\Microsoft\Boot\Resources\bootres.dll
+hit 12-07 01:49:54 12816 \EFI\Microsoft\Boot\Resources\en-US\bootres.dll.mui
+hit 09-28 01:41:24 1604016 \EFI\Boot\bootx64.efi
+hit 09-28 01:41:24 1604016 \EFI\Boot\bootx64_original.efi
+hit 10-04 02:34:58 246784 \EFI\Boot\bootx64_silent.efi
+hit 10-03 09:32:58 30725398 \EFI\APPLE\EMBEDDEDOS\combined.memboot
+hit 10-03 23:10:26 14340 \EFI\APPLE\LOG\BOOT-2.LOG
+hit 10-03 23:39:14 14340 \EFI\APPLE\LOG\BOOT-1.LOG
+hit 09-27 22:07:36 626688 \EFI\OC\OpenCore.efi
+bootlog 10-03 23:39:14 14340
+---- firmware ----
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {8e72434b-babd-11f1-b8ff-806e6f6e6963}
+timeout                 2
+
