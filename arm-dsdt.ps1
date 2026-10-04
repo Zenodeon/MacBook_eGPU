@@ -1,8 +1,8 @@
-﻿$ErrorActionPreference = "Stop"
-$log = "C:\Users\ZBookMW\Desktop\eGPU\dsdt-arm-log.txt"
+$ErrorActionPreference = "Stop"
+$log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\dsdt-arm-log.txt"
 function Log($m){ Add-Content $log "$(Get-Date -Format o) $m"; Write-Output $m }
 Set-Content $log "arm $(Get-Date -Format o)"
-$stage = "C:\Users\ZBookMW\Desktop\eGPU\efi-stage\EFI\OC"
+$stage = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\efi-stage\EFI\OC"
 mountvol Z: /S
 if (-not (Test-Path "Z:\EFI")) { Log "ESP missing"; exit 1 }
 New-Item -ItemType Directory -Force -Path "Z:\EFI\OC\Drivers","Z:\EFI\OC\ACPI" | Out-Null
@@ -19,8 +19,8 @@ Log (bcdedit /set $oc path "\EFI\OC\OpenCore.efi" 2>&1 | Out-String).Trim()
 $seq = (bcdedit /set "{fwbootmgr}" bootsequence $oc 2>&1 | Out-String).Trim()
 Log $seq
 if ($seq -notmatch "successfully") { Log "bootsequence failed"; exit 1 }
-Set-Content "C:\Users\ZBookMW\Desktop\eGPU\stage.txt" "need-dsdt" -Encoding ascii
-Remove-Item "C:\Users\ZBookMW\Desktop\eGPU\last-boot-id.txt" -ErrorAction SilentlyContinue
+Set-Content "C:\Users\ZBookMW\Desktop\MacBook_eGPU\stage.txt" "need-dsdt" -Encoding ascii
+Remove-Item "C:\Users\ZBookMW\Desktop\MacBook_eGPU\last-boot-id.txt" -ErrorAction SilentlyContinue
 Log "stage need-dsdt, rebooting once"
 shutdown.exe /r /t 20 /c "One-time boot to give the RTX 3080 a Large Memory window. The Core X stays in the port next to Tab."
 Log "shutdown issued"

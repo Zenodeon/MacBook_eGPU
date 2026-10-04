@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Base = "C:\Users\ZBookMW\Desktop\eGPU"
+$Base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 $Log = Join-Path $Base "boot-arm-log.txt"
 function Log($m) { Add-Content $Log ("{0} {1}" -f (Get-Date -Format o), $m) }
 Set-Content $Log ("arm-boot {0}" -f (Get-Date -Format o))
@@ -38,7 +38,7 @@ if ($size -lt 100000) {
 Boot Camp startup now loads OpenCore, which loads the Large Memory table, then Windows.
 The original Apple boot.efi is saved as:
   $uuid\System\Library\CoreServices\boot.efi.apple
-and as C:\Users\ZBookMW\Desktop\eGPU\boot.efi.apple
+and as C:\Users\ZBookMW\Desktop\MacBook_eGPU\boot.efi.apple
 Windows Boot Manager (EFI\Microsoft\Boot\bootmgfw.efi) was not replaced.
 If the Mac stops reaching Windows, hold Option at power-on and choose the other macOS disk.
 From macOS, the EFI partition can be mounted and boot.efi.apple copied back over boot.efi.

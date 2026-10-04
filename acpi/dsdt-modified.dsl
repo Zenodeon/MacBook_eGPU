@@ -5,7 +5,7 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of C:/Users/ZBookMW/Desktop/eGPU/acpi/dsdt.dat
+ * Disassembly of C:/Users/ZBookMW/Desktop/MacBook_eGPU/acpi/dsdt.dat
  *
  * Original Table Header:
  *     Signature        "DSDT"

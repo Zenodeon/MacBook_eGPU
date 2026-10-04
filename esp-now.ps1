@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Log = "C:\Users\ZBookMW\Desktop\eGPU\esp-now.txt"
+$Log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\esp-now.txt"
 function Log($m) { Add-Content $Log $m }
 Set-Content $Log ("esp-now {0}" -f (Get-Date -Format o))
 mountvol Z: /S | Out-Null

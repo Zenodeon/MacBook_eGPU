@@ -1,5 +1,5 @@
-﻿$ErrorActionPreference = "Continue"
-$log = "C:\Users\ZBookMW\Desktop\eGPU\bridge-log.txt"
+$ErrorActionPreference = "Continue"
+$log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\bridge-log.txt"
 function Log($m){ $line = "$(Get-Date -Format o) $m"; Add-Content $log $line }
 Set-Content $log "bridge $(Get-Date -Format o)"
 $gpuId = "PCI\VEN_10DE&DEV_2206&SUBSYS_161219DA&REV_A1\8&36C1BE61&0&0008000800E4"

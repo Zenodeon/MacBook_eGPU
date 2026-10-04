@@ -1,5 +1,5 @@
-﻿$log = "C:\Users\ZBookMW\Desktop\eGPU\fix-log.txt"
-New-Item -ItemType Directory -Force -Path "C:\Users\ZBookMW\Desktop\eGPU" | Out-Null
+$log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\fix-log.txt"
+New-Item -ItemType Directory -Force -Path "C:\Users\ZBookMW\Desktop\MacBook_eGPU" | Out-Null
 function Log($m){ $line = "$(Get-Date -Format o) $m"; Add-Content -Path $log -Value $line }
 $pci = "HKLM:\SYSTEM\CurrentControlSet\Control\PnP\Pci"
 if (-not (Test-Path $pci)) { New-Item -Path $pci -Force | Out-Null }

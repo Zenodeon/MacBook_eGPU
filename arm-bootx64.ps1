@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Base = "C:\Users\ZBookMW\Desktop\eGPU"
+$Base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 $Log = Join-Path $Base "boot-arm-log.txt"
 function Log($m) { Add-Content $Log ("{0} {1}" -f (Get-Date -Format o), $m) }
 Set-Content $Log ("arm-bootx64 {0}" -f (Get-Date -Format o))

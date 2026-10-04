@@ -1311,11 +1311,11 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1352,7 +1352,7 @@
 				<key>Name</key>
 				<string>Windows</string>
 				<key>Path</key>
-				<string>\EFI\Boot\bootx64_silent.efi</string>
+				<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
 				<key>TextMode</key>
 				<false/>
 			</dict>
@@ -1380,7 +1380,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
 			<key>Vault</key>

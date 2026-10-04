@@ -1,4 +1,4 @@
-﻿$log = "C:\Users\ZBookMW\Desktop\eGPU\rescan-log.txt"
+$log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\rescan-log.txt"
 function Log($m){ $line = "$(Get-Date -Format o) $m"; Add-Content $log $line; Write-Output $line }
 Set-Content $log "rescan $(Get-Date -Format o)"
 pnputil.exe /scan-devices | Out-Null

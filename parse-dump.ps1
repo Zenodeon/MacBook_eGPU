@@ -1,6 +1,6 @@
-﻿$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Stop"
 $src = "C:\Windows\Minidump\100426-6234-01.dmp"
-$dst = "C:\Users\ZBookMW\Desktop\eGPU\crash.dmp"
+$dst = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\crash.dmp"
 Copy-Item $src $dst -Force
 $b = [IO.File]::ReadAllBytes($dst)
 function U32($o){ [BitConverter]::ToUInt32($b, $o) }

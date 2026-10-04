@@ -1,4 +1,4 @@
-﻿$log = "C:\Users\ZBookMW\Desktop\eGPU\oc-check.txt"
+$log = "C:\Users\ZBookMW\Desktop\MacBook_eGPU\oc-check.txt"
 function Log($m){ Add-Content $log $m }
 Set-Content $log "check $(Get-Date -Format o)"
 mountvol Z: /S

@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Base = "C:\Users\ZBookMW\Desktop\eGPU"
+$Base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 $Out = Join-Path $Base "oc-logs"
 New-Item -ItemType Directory -Force -Path $Out | Out-Null
 Get-ChildItem $Out -File -ErrorAction SilentlyContinue | Remove-Item -Force

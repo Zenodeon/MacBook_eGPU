@@ -1,9 +1,9 @@
-﻿$ErrorActionPreference = "Stop"
-$base = "C:\Users\ZBookMW\Desktop\eGPU"
+$ErrorActionPreference = "Stop"
+$base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 Set-Content -Path "$base\stage.txt" -Value "hackflags" -Encoding ascii
 Remove-Item "$base\last-boot-id.txt" -ErrorAction SilentlyContinue
 Remove-Item "$base\reboot-count.txt" -ErrorAction SilentlyContinue
-$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File C:\Users\ZBookMW\Desktop\eGPU\postboot.ps1"
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File C:\Users\ZBookMW\Desktop\MacBook_eGPU\postboot.ps1"
 $trigger = New-ScheduledTaskTrigger -AtStartup
 $trigger.Delay = "PT45S"
 $principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -LogonType ServiceAccount -RunLevel Highest

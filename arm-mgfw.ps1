@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Base = "C:\Users\ZBookMW\Desktop\eGPU"
+$Base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 $Log = Join-Path $Base "boot-arm-log.txt"
 function Log($m) { Add-Content $Log ("{0} {1}" -f (Get-Date -Format o), $m) }
 Set-Content $Log ("arm-mgfw {0}" -f (Get-Date -Format o))
@@ -48,7 +48,7 @@ Windows startup now loads OpenCore, then apple_set_os, then the real Windows boo
 If Windows stops booting, start macOS, mount the EFI partition, and run:
 copy /Y EFI\Microsoft\Boot\bootmgfw.original.efi EFI\Microsoft\Boot\bootmgfw.efi
 The original Windows boot manager is also at EFI\Boot\bootx64_original.efi
-and at C:\Users\ZBookMW\Desktop\eGPU\bootmgfw.original.efi
+and at C:\Users\ZBookMW\Desktop\MacBook_eGPU\bootmgfw.original.efi
 "@ | Set-Content "Z:\EFI\RESTORE-WINDOWS-BOOT.txt" -Encoding ascii
 
 New-Item -ItemType Directory -Force -Path "Z:\EFI\OC\Drivers","Z:\EFI\OC\ACPI" | Out-Null

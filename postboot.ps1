@@ -1,5 +1,5 @@
 $ErrorActionPreference = "Continue"
-$Base = "C:\Users\ZBookMW\Desktop\eGPU"
+$Base = "C:\Users\ZBookMW\Desktop\MacBook_eGPU"
 $Log = Join-Path $Base "postboot-status.txt"
 $StageFile = Join-Path $Base "stage.txt"
 $RebootFile = Join-Path $Base "reboot-count.txt"
@@ -29,15 +29,7 @@ function Get-Reboots {
 }
 
 function Request-Reboot($reason) {
-    $n = (Get-Reboots) + 1
-    Set-Content -Path $RebootFile -Value $n -Encoding ascii
-    Log "reboot $n requested: $reason"
-    if ($n -gt 4) {
-        Log "reboot limit reached; not rebooting"
-        Set-Stage "stuck"
-        return
-    }
-    shutdown.exe /r /t 20 /c "eGPU fix: $reason"
+    Log "reboot blocked: $reason"
 }
 
 function Get-Rtx {
@@ -88,6 +80,8 @@ function Mount-Esp {
 }
 
 function Install-AppleSetOs {
+    Log "EFI edit blocked"
+    return $false
     if (-not (Mount-Esp)) { Log "ESP mount failed"; return $false }
     if (-not (Test-Path $Silent)) { Log "silent loader missing"; return $false }
     $mgfw = "Z:\EFI\Microsoft\Boot\bootmgfw.efi"
@@ -114,6 +108,8 @@ The original Windows boot manager is also at EFI\Boot\bootx64_original.efi
 }
 
 function Enable-DsdtBoot {
+    Log "EFI edit blocked"
+    return $false
     if (-not (Mount-Esp)) { Log "ESP mount failed for DSDT"; return $false }
     if (-not (Test-Path (Join-Path $StageDir "OpenCore.efi"))) { Log "OpenCore stage missing"; return $false }
     New-Item -ItemType Directory -Force -Path "Z:\EFI\OC\Drivers","Z:\EFI\OC\ACPI" | Out-Null
@@ -131,6 +127,8 @@ function Enable-DsdtBoot {
 }
 
 function Set-OpenCoreDefault {
+    Log "firmware boot order change blocked"
+    return $false
     $out = bcdedit /set "{fwbootmgr}" displayorder $OcGuid /addfirst 2>&1 | Out-String
     Log "OpenCore set as default firmware boot: $($out.Trim())"
     return ($out -match "successfully")
