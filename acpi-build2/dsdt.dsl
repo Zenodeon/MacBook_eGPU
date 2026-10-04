@@ -5,51 +5,31 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of dsdt.dat
+ * Disassembly of C:/Users/ZBookMW/Desktop/MacBook_eGPU/acpi-build2/dsdt.aml
  *
  * Original Table Header:
  *     Signature        "DSDT"
- *     Length           0x000085AC (34220)
+ *     Length           0x00008630 (34352)
  *     Revision         0x02
- *     Checksum         0x50
+ *     Checksum         0xF5
  *     OEM ID           "APPLE "
  *     OEM Table ID     "MacBookP"
- *     OEM Revision     0x00130002 (1245186)
+ *     OEM Revision     0x00130006 (1245190)
  *     Compiler ID      "INTL"
- *     Compiler Version 0x20140424 (538182692)
+ *     Compiler Version 0x20240927 (539232551)
  */
 DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
 {
-    /*
-     * iASL Warning: There were 8 external control methods found during
-     * disassembly, but only 5 were resolved (3 unresolved). Additional
-     * ACPI tables may be required to properly disassemble the code. This
-     * resulting disassembler output file may not compile because the
-     * disassembler did not know how many arguments to assign to the
-     * unresolved methods. Note: SSDTs can be dynamically loaded at
-     * runtime and may or may not be available via the host OS.
-     *
-     * In addition, the -fe option can be used to specify a file containing
-     * control method external declarations with the associated method
-     * argument counts. Each line of the file must be of the form:
-     *     External (<method pathname>, MethodObj, <argument count>)
-     * Invocation:
-     *     iasl -fe refs.txt -d dsdt.aml
-     *
-     * The following methods were unresolved and many not compile properly
-     * because the disassembler had to guess at the number of arguments
-     * required for each:
-     */
     External (_SB_.PCI0.PEG0.GFX0, UnknownObj)
     External (_SB_.PCI0.RP05.ICMB, MethodObj)    // 0 Arguments
     External (_SB_.PCI0.RP05.UPSB.LSTX, MethodObj)    // 2 Arguments
     External (_SB_.PCI0.RP09.ICMB, MethodObj)    // 0 Arguments
     External (_SB_.PCI0.RP09.UPSB.LSTX, MethodObj)    // 2 Arguments
-    External (_SB_.PCI0.TGPE, MethodObj)    // Warning: Unknown method, guessing 0 arguments
+    External (_SB_.PCI0.TGPE, MethodObj)    // 0 Arguments
     External (_SB_.PCI0.XHC1, UnknownObj)
     External (_SB_.PCI0.XHC1.USBM, MethodObj)    // 1 Arguments
-    External (HDOS, MethodObj)    // Warning: Unknown method, guessing 0 arguments
-    External (HNOT, MethodObj)    // Warning: Unknown method, guessing 1 arguments
+    External (HDOS, MethodObj)    // 0 Arguments
+    External (HNOT, MethodObj)    // 1 Arguments
     External (PDC0, IntObj)
     External (PDC1, IntObj)
     External (PDC2, IntObj)
@@ -2798,7 +2778,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                         {
                             0xFFFFFFFF
                         })
-                        TMP1 [Zero] = (0x00010000 | DID1)
+                        TMP1 [Zero] = (0x00010000 | DID1) /* \DID1 */
                         Return (TMP1) /* \_SB_.PCI0.IGPU._DOD.TMP1 */
                     }
 
@@ -2809,8 +2789,8 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP2 [Zero] = (0x00010000 | DID1)
-                        TMP2 [One] = (0x00010000 | DID2)
+                        TMP2 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP2 [One] = (0x00010000 | DID2) /* \DID2 */
                         Return (TMP2) /* \_SB_.PCI0.IGPU._DOD.TMP2 */
                     }
 
@@ -2822,9 +2802,9 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP3 [Zero] = (0x00010000 | DID1)
-                        TMP3 [One] = (0x00010000 | DID2)
-                        TMP3 [0x02] = (0x00010000 | DID3)
+                        TMP3 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP3 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP3 [0x02] = (0x00010000 | DID3) /* \DID3 */
                         Return (TMP3) /* \_SB_.PCI0.IGPU._DOD.TMP3 */
                     }
 
@@ -2837,10 +2817,10 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP4 [Zero] = (0x00010000 | DID1)
-                        TMP4 [One] = (0x00010000 | DID2)
-                        TMP4 [0x02] = (0x00010000 | DID3)
-                        TMP4 [0x03] = (0x00010000 | DID4)
+                        TMP4 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP4 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP4 [0x02] = (0x00010000 | DID3) /* \DID3 */
+                        TMP4 [0x03] = (0x00010000 | DID4) /* \DID4 */
                         Return (TMP4) /* \_SB_.PCI0.IGPU._DOD.TMP4 */
                     }
 
@@ -2854,11 +2834,11 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP5 [Zero] = (0x00010000 | DID1)
-                        TMP5 [One] = (0x00010000 | DID2)
-                        TMP5 [0x02] = (0x00010000 | DID3)
-                        TMP5 [0x03] = (0x00010000 | DID4)
-                        TMP5 [0x04] = (0x00010000 | DID5)
+                        TMP5 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP5 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP5 [0x02] = (0x00010000 | DID3) /* \DID3 */
+                        TMP5 [0x03] = (0x00010000 | DID4) /* \DID4 */
+                        TMP5 [0x04] = (0x00010000 | DID5) /* \DID5 */
                         Return (TMP5) /* \_SB_.PCI0.IGPU._DOD.TMP5 */
                     }
 
@@ -2873,12 +2853,12 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP6 [Zero] = (0x00010000 | DID1)
-                        TMP6 [One] = (0x00010000 | DID2)
-                        TMP6 [0x02] = (0x00010000 | DID3)
-                        TMP6 [0x03] = (0x00010000 | DID4)
-                        TMP6 [0x04] = (0x00010000 | DID5)
-                        TMP6 [0x05] = (0x00010000 | DID6)
+                        TMP6 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP6 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP6 [0x02] = (0x00010000 | DID3) /* \DID3 */
+                        TMP6 [0x03] = (0x00010000 | DID4) /* \DID4 */
+                        TMP6 [0x04] = (0x00010000 | DID5) /* \DID5 */
+                        TMP6 [0x05] = (0x00010000 | DID6) /* \DID6 */
                         Return (TMP6) /* \_SB_.PCI0.IGPU._DOD.TMP6 */
                     }
 
@@ -2894,13 +2874,13 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP7 [Zero] = (0x00010000 | DID1)
-                        TMP7 [One] = (0x00010000 | DID2)
-                        TMP7 [0x02] = (0x00010000 | DID3)
-                        TMP7 [0x03] = (0x00010000 | DID4)
-                        TMP7 [0x04] = (0x00010000 | DID5)
-                        TMP7 [0x05] = (0x00010000 | DID6)
-                        TMP7 [0x06] = (0x00010000 | DID7)
+                        TMP7 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP7 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP7 [0x02] = (0x00010000 | DID3) /* \DID3 */
+                        TMP7 [0x03] = (0x00010000 | DID4) /* \DID4 */
+                        TMP7 [0x04] = (0x00010000 | DID5) /* \DID5 */
+                        TMP7 [0x05] = (0x00010000 | DID6) /* \DID6 */
+                        TMP7 [0x06] = (0x00010000 | DID7) /* \DID7 */
                         Return (TMP7) /* \_SB_.PCI0.IGPU._DOD.TMP7 */
                     }
 
@@ -2917,14 +2897,14 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                             0xFFFFFFFF, 
                             0xFFFFFFFF
                         })
-                        TMP8 [Zero] = (0x00010000 | DID1)
-                        TMP8 [One] = (0x00010000 | DID2)
-                        TMP8 [0x02] = (0x00010000 | DID3)
-                        TMP8 [0x03] = (0x00010000 | DID4)
-                        TMP8 [0x04] = (0x00010000 | DID5)
-                        TMP8 [0x05] = (0x00010000 | DID6)
-                        TMP8 [0x06] = (0x00010000 | DID7)
-                        TMP8 [0x07] = (0x00010000 | DID8)
+                        TMP8 [Zero] = (0x00010000 | DID1) /* \DID1 */
+                        TMP8 [One] = (0x00010000 | DID2) /* \DID2 */
+                        TMP8 [0x02] = (0x00010000 | DID3) /* \DID3 */
+                        TMP8 [0x03] = (0x00010000 | DID4) /* \DID4 */
+                        TMP8 [0x04] = (0x00010000 | DID5) /* \DID5 */
+                        TMP8 [0x05] = (0x00010000 | DID6) /* \DID6 */
+                        TMP8 [0x06] = (0x00010000 | DID7) /* \DID7 */
+                        TMP8 [0x07] = (0x00010000 | DID8) /* \DID8 */
                         Return (TMP8) /* \_SB_.PCI0.IGPU._DOD.TMP8 */
                     }
 
@@ -3886,7 +3866,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                     {
                         PARM &= 0xEFFF0000
                         PARM &= (DerefOf (DBTB [IBTT]) << 0x10)
-                        PARM |= IBTT /* \_SB_.PCI0.IGPU.PARM */
+                        PARM |= IBTT /* \IBTT */
                         GESF = Zero
                         Return (SUCC) /* \_SB_.PCI0.IGPU.SUCC */
                     }
@@ -3917,7 +3897,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                         PARM |= 0x1800
                         PARM |= (IDMS << 0x11)
                         PARM |= (DerefOf (DerefOf (CDCT [HVCO]) [CDVL]) << 
-                            0x15) /* \_SB_.PCI0.IGPU.PARM */
+                            0x15)
                         GESF = One
                         Return (SUCC) /* \_SB_.PCI0.IGPU.SUCC */
                     }
@@ -8841,8 +8821,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                 Local0 = One
             }
 
-            Local1 = (DerefOf (DerefOf (GCOM [Local0]) [Arg0]) + 
-                SBRG)
+            Local1 = (DerefOf (DerefOf (GCOM [Local0]) [Arg0]) + SBRG) /* \SBRG */
             Local2 = DerefOf (DerefOf (Arg1 [Local0]) [Arg0])
             Return ((Local1 + Local2))
         }
@@ -8872,8 +8851,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
                 Local0 = One
             }
 
-            Local1 = (DerefOf (DerefOf (GCOM [Local0]) [Zero]) + 
-                SBRG)
+            Local1 = (DerefOf (DerefOf (GCOM [Local0]) [Zero]) + SBRG) /* \SBRG */
             Local2 = (Arg0 + Local1)
             OperationRegion (PREG, SystemMemory, Local2, 0x04)
             Field (PREG, AnyAcc, NoLock, Preserve)
@@ -8902,8 +8880,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         {
             Local0 = GGRP (Arg0)
             Local1 = GNMB (Arg0)
-            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 
-                0x04)
+            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 0x04)
             OperationRegion (PDW1, SystemMemory, Local2, 0x04)
             Field (PDW1, AnyAcc, NoLock, Preserve)
             {
@@ -8917,8 +8894,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         {
             Local0 = GGRP (Arg0)
             Local1 = GNMB (Arg0)
-            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 
-                0x04)
+            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 0x04)
             OperationRegion (PDW1, SystemMemory, Local2, 0x04)
             Field (PDW1, AnyAcc, NoLock, Preserve)
             {
@@ -9188,8 +9164,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         {
             Local0 = GGRP (Arg0)
             Local1 = GNMB (Arg0)
-            Local2 = (GADR (Local0, POWN) + ((Local1 >> 0x03) * 0x04
-                ))
+            Local2 = (GADR (Local0, POWN) + ((Local1 >> 0x03) * 0x04))
             OperationRegion (PREG, SystemMemory, Local2, 0x04)
             Field (PREG, AnyAcc, NoLock, Preserve)
             {
@@ -9220,8 +9195,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         {
             Local0 = GGRP (Arg0)
             Local1 = GNMB (Arg0)
-            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 
-                0x04)
+            Local2 = ((GADR (Local0, PCFG) + (Local1 * 0x08)) + 0x04)
             OperationRegion (PDW0, SystemMemory, Local2, 0x04)
             Field (PDW0, AnyAcc, NoLock, Preserve)
             {
@@ -9246,7 +9220,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
             If ((((GPEM >> (Arg0 * 0x02)) & 0x03) == 
                 Zero))
             {
-                GPES [Arg0] = (STSX & GENX)
+                GPES [Arg0] = (STSX & GENX) /* \_SB_.UGP1.GENX */
             }
             Else
             {
@@ -9437,7 +9411,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         Method (PCRR, 2, Serialized)
         {
             Local0 = ((Arg0 << 0x10) + Arg1)
-            Local0 += SBRG
+            Local0 += SBRG /* \SBRG */
             OperationRegion (PCR0, SystemMemory, Local0, 0x04)
             Field (PCR0, DWordAcc, Lock, Preserve)
             {
@@ -9450,7 +9424,7 @@ DefinitionBlock ("", "DSDT", 2, "APPLE ", "MacBookP", 0x00130006)
         Method (PCRW, 3, Serialized)
         {
             Local0 = ((Arg0 << 0x10) + Arg1)
-            Local0 += SBRG
+            Local0 += SBRG /* \SBRG */
             OperationRegion (PCR0, SystemMemory, Local0, 0x04)
             Field (PCR0, DWordAcc, Lock, Preserve)
             {

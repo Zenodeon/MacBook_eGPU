@@ -1,0 +1,19 @@
+dsm 2026-10-04T21:22:55.2760696+04:00
+2026-10-04T21:22:55.3349145+04:00 C:\Users\ZBookMW\Desktop\MacBook_eGPU\acpitabl-00130006.dat len=34352 oem=0x00130006 sum=0
+2026-10-04T21:22:55.3738105+04:00 C:\Users\ZBookMW\Desktop\MacBook_eGPU\acpi\dsdt.aml len=34406 oem=0x00130007 sum=0
+2026-10-04T21:22:55.6937106+04:00 Windows Recovery Environment (Windows RE) and system reset configuration
+Information:
+
+    Windows RE status:         Enabled
+    Windows RE location:       \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE
+    Boot Configuration Data (BCD) identifier: 4c8e84a5-29fd-11ec-b08f-bf0eb956520c
+    Recovery image location:   
+    Recovery image index:      0
+    Custom image location:     
+    Custom image index:        0
+
+REAGENTC.EXE: Operation Successful.
+2026-10-04T21:22:55.9697014+04:00 testsigning on
+2026-10-04T21:22:55.9946693+04:00 C:\Windows\System32\acpitabl.dat len=34406 oem=0x00130007 sum=0
+2026-10-04T21:22:55.9986324+04:00 EFI, pci.sys, HackFlags, and root ports not touched
+2026-10-04T21:22:56.0375204+04:00 shutdown issued t=30

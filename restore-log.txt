@@ -1,0 +1,8 @@
+restore 2026-10-04T21:12:17.3800640+04:00
+2026-10-04T21:12:17.5815063+04:00 backup len=473488 raw=10.0.19041.6456 hash=B41EBCCE9F68256E869CEE6C9A122D0C495D8B8F9095A5A4ED13D034D051515A
+2026-10-04T21:12:17.6408595+04:00 SUCCESS: The file (or folder): "C:\Windows\System32\drivers\pci.sys" now owned by user "DESKTOP-FL4U9UI\ZBookMW".
+2026-10-04T21:12:17.6713764+04:00 processed file: C:\Windows\System32\drivers\pci.sys
+Successfully processed 1 files; Failed processing 0 files
+2026-10-04T21:12:17.7150060+04:00 dest len=473488 raw=10.0.19041.6456 hash=B41EBCCE9F68256E869CEE6C9A122D0C495D8B8F9095A5A4ED13D034D051515A
+2026-10-04T21:12:17.7170005+04:00 restored; EFI, acpitabl.dat, HackFlags, and root ports not touched
+2026-10-04T21:12:17.8037739+04:00 shutdown issued t=60

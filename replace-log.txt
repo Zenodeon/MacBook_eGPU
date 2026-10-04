@@ -1,0 +1,22 @@
+replace 2026-10-04T21:04:34.0662510+04:00
+2026-10-04T21:04:34.1709536+04:00 new len=433976 file=10.0.18362.1 (WinBuild.160101.0800) product=10.0.18362.1 sig=Valid signer=CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+2026-10-04T21:04:34.3516762+04:00 backup len=473488 file=10.0.19041.6456 (WinBuild.160101.0800) product=10.0.19041.6456 raw=10.0.19041.6456 hash=B41EBCCE9F68256E869CEE6C9A122D0C495D8B8F9095A5A4ED13D034D051515A
+2026-10-04T21:04:34.6474369+04:00 Windows Recovery Environment (Windows RE) and system reset configuration
+Information:
+
+    Windows RE status:         Enabled
+    Windows RE location:       \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE
+    Boot Configuration Data (BCD) identifier: 4c8e84a5-29fd-11ec-b08f-bf0eb956520c
+    Recovery image location:   
+    Recovery image index:      0
+    Custom image location:     
+    Custom image index:        0
+
+REAGENTC.EXE: Operation Successful.
+2026-10-04T21:04:34.6702393+04:00 SUCCESS: The file (or folder): "C:\Windows\System32\drivers\pci.sys" now owned by user "DESKTOP-FL4U9UI\ZBookMW".
+2026-10-04T21:04:34.6905244+04:00 processed file: C:\Windows\System32\drivers\pci.sys
+Successfully processed 1 files; Failed processing 0 files
+2026-10-04T21:04:34.7534905+04:00 dest len=433976 file=10.0.19041.1 (WinBuild.160101.0800) product=10.0.19041.1 raw=10.0.18362.1 sig=Valid signer=CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+2026-10-04T21:04:34.7554842+04:00 readback ok; EFI, acpitabl.dat, HackFlags, and root ports not touched
+2026-10-04T21:04:35.9736860+04:00 iso dismounted
+2026-10-04T21:04:36.0335270+04:00 shutdown issued t=90
