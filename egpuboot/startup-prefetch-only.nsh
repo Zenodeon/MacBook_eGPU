@@ -1,5 +1,5 @@
 @echo -off
-echo "EGPUBOOT: move 9D14 prefetch to 0x280000000 and non-prefetch to 0xCC000000, then start Windows."
+echo "EGPUBOOT: move 9D14 prefetch window to 0x280000000-0x2FFFFFFFF, then start Windows."
 
 for %i in 0 1 2 3 4 5 6 7 8 9
   if exist fs%i:\egpuboot.tag then
@@ -30,8 +30,6 @@ pci 04 04 00 -i >a w-before-b04d4.txt
 pci 07 00 00 -i >a w-before-b07.txt
 pci 08 01 00 -i >a w-before-b08.txt
 pci 09 00 00 -i >a w-before-b09-gpu.txt
-pci 05 00 00 -i >a w-before-b05-nhi.txt
-pci 06 00 00 -i >a w-before-b06-usb.txt
 
 echo "Writing 9D14 prefetch window..."
 mm 001C0424 FFF1 -w 2 -pci -n
@@ -39,11 +37,6 @@ mm 001C0428 00000002 -w 4 -pci -n
 mm 001C042C 00000002 -w 4 -pci -n
 mm 001C0426 FFF1 -w 2 -pci -n
 mm 001C0424 8001 -w 2 -pci -n
-
-echo "Writing 9D14 non-prefetch window..."
-mm 001C0420 FFF0 -w 2 -pci -n
-mm 001C0422 DFF0 -w 2 -pci -n
-mm 001C0420 CC00 -w 2 -pci -n
 
 pci 00 1C 04 -i >a w-after-rp05.txt
 echo "written" >a w-done.txt
